@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+body {
+    background-color: #F5EADC;
+
+}
+
+header {
+    margin-top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Just Another Hand";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+header img {
+    width: 30vh;
+    margin-left: 50px;
+    margin-top: -10px;
+}
+
+/*NAVBAR*/
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 80px;
+    margin-bottom: 50px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar ul li {
+    margin-right: 1.5rem;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #D86C3C;
+}
+
+#navbar :hover,
+#navbar .active {
+    color: #6E7B58;
+}
+
+/*LOGIN*/
+.login-btn {
+    background-color: #6E7B58;
+    color: #F5EADC;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 200px;
+}
+
+.login-btn:hover {
+    color: #D86C3C !important;
+}
+
+/*MAIN*/
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    margin-left: 85px;
+    margin-top: -50px;
+    width: 90%;
+    height: 50rem;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    background-color: transparent;
+    color: #F5EADC;
+    font-size: 70px;
+    text-align: center;
+    font-family: "Pangolin";
+}
+
+/*EXPLORE-BUTTON*/
+.exp-btn {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 15%;
+    height: 7%;
+    background-color: #6E7B58;
+    color: #F5EADC;
+    border-radius: calc(infinity * 1px);
+    font-size: 30px;
+    text-align: center;
+    align-content: center;
+    font-family: "Pangolin";
+}
+
+.exp-btn:hover {
+    color: #D86C3C;
+}
+
+/*ABOUT US*/
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    background-color: #6E7B58;
+    color: #F5EADC;
+    margin-top: 65px;
+    padding: 20px; /* Add padding for spacing inside the container */
+    width: auto; /* Ensure the width adjusts to the content */
+}
+
+.about-container h3 {
+    font-size: 50px;
+    width: 18%;
+    font-family:"Just Another Hand" ;
+    letter-spacing: 5px;
+    margin-left: 90px;
+}
+
+.about-container img {
+    width: 15%;
+}
+
+.about-container p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-family: "Pangolin";
+    width: 80%;
+}
+
+/*EXPLORE*/
+
+.explore-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align content to the top */
+    margin-top: 65px;
+    padding: 20px; /* Add padding for spacing inside the container */
+    width: auto; /* Ensure the width adjusts to the content */
+}
+
+.explore-container h3 {
+    font-size: 50px;
+    width: 18%;
+    font-family:"Just Another Hand" ;
+    letter-spacing: 5px;
+    margin-left: 90px;
+}
+
+.explore-container img {
+    width: 15%;
+}
