@@ -169,7 +169,8 @@ header img {
 .explore-container h3 {
     font-size: 50px;
     width: 18%;
-    font-family:"Just Another Hand" ;
+    font-family:"Just Another Hand";
+    color: #6E7B58;
     letter-spacing: 5px;
     margin-left: 90px;
 }
